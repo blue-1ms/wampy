@@ -108,6 +108,8 @@ custom font file, overriding the default one. File must be named `font.tff` (or 
 into `<internal storage>/wampy/fonts/` directory. Supported formats: `.ttf`, `.otf`. Changes are applied after reboot.
 Invalid font files will crash Wampy; there will be no graphical indication.
 
+For Chinese or Japanese track titles that show `?`, use a static Noto Sans SC Regular TTF as `wampy/fonts/font.ttf` and restart the player. Tested on an NW-A45 with Walkman One and Wampy v1.14.6.
+
 You can get font files with other character sets from https://fonts.google.com/noto. Default is `NotoSansKR-Regular`.
 
 ## Using Wampy
